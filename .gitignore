@@ -1,0 +1,20 @@
+# Node Modules
+node_modules/
+
+# Authentication & Cache Data
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+*.log
+
+# OS System Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+
+# IDE Configurations (optional)
+.vscode/
+.idea/
