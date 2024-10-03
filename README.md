@@ -1,4 +1,3 @@
-```markdown
 # WhatsApp Bot
 
 This is a Node.js-based WhatsApp bot built using the `whatsapp-web.js` library. The bot can respond to specific commands, fetch memes, tag users in a group, and interact with external APIs. It uses the Puppeteer library to automate WhatsApp Web interactions and supports a variety of commands out of the box.
