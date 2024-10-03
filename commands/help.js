@@ -7,10 +7,12 @@ module.exports = {
   Available Commands:
   
   .joke - Fetches a random joke from the JokeAPI and sends it to the chat.
-  
+
   .ping - Check if the bot is online.
   
   .q <your query> - Ask a question or send a query to the API.
+
+  .remind <message> <time_in_minutes> - Sets a reminder for a specified message and time.
   
   .meme - Fetches a random meme and sends it as an image.
   
