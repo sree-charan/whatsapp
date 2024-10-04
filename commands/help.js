@@ -19,6 +19,8 @@
     11. *.time <location>* - Gets the current time in a specified city or location.
     12. *.movie <movie_title>* - Fetches detailed information about a specified movie.
     13. *.help* - Displays this help message.
+    14. *.sticker* - Converts the attached image/video/gif to a sticker.
+    15. *.gm* - Get Media from a quoted message.
 
     💡 *Usage Examples:*
     - \`.ping\`
@@ -31,10 +33,10 @@
     - \`.tagall\`
     - \`.joke\`
     - \`.remind Drink Water 10\`
-    - \`.trivia\`
-    - \`.answer A\`
     - \`.time Tokyo\`
+    - \`.sticker\`
     - \`.movie Inception\`
+    - \`.gm\
            `;
 
        await message.reply(helpMessage);

@@ -6,6 +6,7 @@
     "start": "echo 'Starting the bot...' && node main.js"
   },
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "axios": "^1.7.7",
     "puppeteer": "^23.4.0",
     "puppeteer-core": "^23.4.0",
