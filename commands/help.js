@@ -1,24 +1,45 @@
-// help.js - Command for displaying all available commands and their usage.
-module.exports = {
-    name: '.help',
-    description: 'Displays all the available commands and their descriptions.',
-    execute: async (message, client) => {
-      const helpMessage = `
-  Available Commands:
-  
-  .joke - Fetches a random joke from the JokeAPI and sends it to the chat.
+   // help.js - Displays a list of all available commands and their descriptions.
+   module.exports = {
+     name: '.help',
+     description: 'Displays all available commands and their descriptions.',
+     execute: async (message, args, client) => {
+       const helpMessage = `
+    *🤖 WhatsApp Bot - Available Commands:*
 
-  .ping - Check if the bot is online.
-  
-  .q <your query> - Ask a question or send a query to the API.
+    1. *.ping* - Check if the bot is online.
+    2. *.q <your query>* - Ask a question or send a query to an external API.
+    3. *.meme* - Fetches a random meme and sends it as an image.
+    4. *.shorten <url>* - Shortens a long URL and provides a shortened link.
+    5. *.lyrics <song_name>, <artist_name>* - Fetches the lyrics for a specified song and artist.
+    6. *.roast <name>* - Generates a playful roast for the specified name.
+    7. *.advice* - Sends a random piece of advice.
+    8. *.tagall* - Tags all participants in a group chat.
+    9. *.joke* - Fetches a random joke and sends it to the chat.
+    10. *.remind <message> <time_in_minutes>* - Sets a reminder for a specified message and time.
+    11. *.trivia* - Starts a random trivia quiz with multiple-choice questions.
+    12. *.answer <option>* - Respond to the ongoing trivia question with your answer.
+    13. *.time <location>* - Gets the current time in a specified city or location.
+    14. *.movie <movie_title>* - Fetches detailed information about a specified movie.
+    15. *.help* - Displays this help message.
 
-  .remind <message> <time_in_minutes> - Sets a reminder for a specified message and time.
-  
-  .meme - Fetches a random meme and sends it as an image.
-  
-  .tagall - Tags all participants in a group chat.
-  
-  .help - Displays this help message. `;
-  // Send the help message as a reply to the user
-  await message.reply(helpMessage);
-  }, };
+    💡 *Usage Examples:*
+    - \`.ping\`
+    - \`.q Tell me a joke\`
+    - \`.meme\`
+    - \`.shorten https://www.example.com\`
+    - \`.lyrics Shape of You, Ed Sheeran\`
+    - \`.roast John\`
+    - \`.advice\`
+    - \`.tagall\`
+    - \`.joke\`
+    - \`.remind Drink Water 10\`
+    - \`.trivia\`
+    - \`.answer A\`
+    - \`.time Tokyo\`
+    - \`.movie Inception\`
+           `;
+
+       await message.reply(helpMessage);
+     },
+   };
+   
