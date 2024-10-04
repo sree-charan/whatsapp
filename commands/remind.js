@@ -14,8 +14,11 @@ module.exports = {
         return;
       }
   
+      // Determine if it's singular or plural
+      const timeLabel = time === 1 ? 'minute' : 'minutes';
+  
       // Confirm that the reminder is set
-      await message.reply(`⏰ Reminder set! I'll remind you to '${reminderMessage}' in ${time} minutes.`);
+      await message.reply(`⏰ Reminder set! I'll remind you to '${reminderMessage}' in ${time} ${timeLabel}.`);
   
       // Set a timeout to send the reminder after the specified time
       setTimeout(async () => {
