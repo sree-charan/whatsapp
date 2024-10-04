@@ -7,7 +7,7 @@
     *🤖 WhatsApp Bot - Available Commands:*
 
     1. *.ping* - Check if the bot is online.
-    2. *.q <your query>* - Ask a question or send a query to an external API.
+    2. *.q <your query>* - Ask a question.
     3. *.meme* - Fetches a random meme and sends it as an image.
     4. *.shorten <url>* - Shortens a long URL and provides a shortened link.
     5. *.lyrics <song_name>, <artist_name>* - Fetches the lyrics for a specified song and artist.
@@ -26,7 +26,7 @@
     - \`.ping\`
     - \`.q Tell me a joke\`
     - \`.meme\`
-    - \`.shorten https://www.example.com\`
+    - \`.shorten URL\`
     - \`.lyrics Shape of You, Ed Sheeran\`
     - \`.roast John\`
     - \`.advice\`
