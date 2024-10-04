@@ -16,11 +16,9 @@
     8. *.tagall* - Tags all participants in a group chat.
     9. *.joke* - Fetches a random joke and sends it to the chat.
     10. *.remind <message> <time_in_minutes>* - Sets a reminder for a specified message and time.
-    11. *.trivia* - Starts a random trivia quiz with multiple-choice questions.
-    12. *.answer <option>* - Respond to the ongoing trivia question with your answer.
-    13. *.time <location>* - Gets the current time in a specified city or location.
-    14. *.movie <movie_title>* - Fetches detailed information about a specified movie.
-    15. *.help* - Displays this help message.
+    11. *.time <location>* - Gets the current time in a specified city or location.
+    12. *.movie <movie_title>* - Fetches detailed information about a specified movie.
+    13. *.help* - Displays this help message.
 
     💡 *Usage Examples:*
     - \`.ping\`
